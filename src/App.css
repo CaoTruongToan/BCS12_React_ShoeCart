@@ -1,0 +1,32 @@
+@keyframes rainbow-border {
+    0% { border-color: red; }
+    14% { border-color: orange; }
+    28% { border-color: yellow; }
+    42% { border-color: green; }
+    57% { border-color: blue; }
+    71% { border-color: indigo; }
+    85% { border-color: violet; }
+    100% { border-color: red; }
+}
+
+.hover-rainbow-border:hover {
+    border-width: 4px;
+    border-radius: 8px; /* Điều chỉnh để có góc bo tròn nếu cần */
+    animation: rainbow-border 5s linear infinite;
+}
+
+
+@keyframes rainbow-text {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}
+
+.rainbow-text {
+    animation: rainbow-text 3s linear infinite;
+}
